@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TODO-List</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notunuz">Notunuz</string>
+    <string name="baslik">Başlık</string>
+    <string name="notu_gormek">Notu Görmek İçin Tıklayınız</string>
+    <string name="silme">Bütün Notları Sil</string>
+    <string name="uyari">Uyarı</string>
+    <string name="pozitif_uyari">Evet</string>
+    <string name="negatif_uyari">Hayır</string>
+    <string name="guncelle">Güncelle</string>
+    <string name="tekli_silme">Bu Notu Sil</string>
+</resources>

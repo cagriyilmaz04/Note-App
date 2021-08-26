@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".EditFragment">
+
+    <EditText
+        android:id="@+id/editText_baslik_edit"
+        android:layout_width="349dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edit_text_arka_plan"
+        android:ems="10"
+        android:hint="Başlık"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_edit_fragment" />
+
+    <EditText
+        android:id="@+id/editText_notunuz_edit"
+        android:layout_width="367dp"
+        android:layout_height="571dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_text_arka_plan"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="Notunuz"
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_baslik_edit" />
+
+    <Button
+        android:id="@+id/button_kaydet_edit"
+        android:layout_width="148dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/guncelle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_edit_fragment"
+        app:layout_constraintVertical_bias="0.589" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_edit_fragment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="674dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/button_kaydet_edit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

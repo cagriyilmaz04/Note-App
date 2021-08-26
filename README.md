@@ -4,7 +4,7 @@ Simple To-Do List Application
 In this application I used some jetpack components.
 Room Database to hold our datas.
 Navigation and SafeArgs to pass other fragments and to pass data between fragments.
-Coroutine to prevent blocking main thread when we add note,deleted note or upgrade note.
+Coroutine to prevent blocking main thread when we add note,delete note or upgrade note.
 Also I used MVVM.
 Finally I migrated to ViewBinding from kotlin-android-extensions or findViewById.
 
